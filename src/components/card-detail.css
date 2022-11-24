@@ -1,0 +1,40 @@
+.detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: auto;
+  width: 75%;
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.detail-image {
+  width: 50%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.detail-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 50%;
+}
+
+.plant-title {
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 620px) {
+  .detail {
+    flex-direction: column;
+  }
+  .detail-image {
+    height: 200px;
+  }
+}

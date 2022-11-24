@@ -1,0 +1,36 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: auto;
+  max-width: 768px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.about-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  object-fit: fill;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 75%;
+}
+
+.about-title {
+  padding: 10px;
+}
