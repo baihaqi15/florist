@@ -36,5 +36,11 @@
   }
   .detail-image {
     height: 200px;
+    width: 100%;
+  }
+  .detail-content {
+    width: 100%;
+    padding: 20px;
+    text-align: justify;
   }
 }
