@@ -20,7 +20,6 @@ export default function PlantCategory() {
     };
     fetchData();
   }, [id]);
-  console.log(data);
 
   return (
     <>
