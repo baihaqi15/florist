@@ -6,6 +6,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="containernav">
+        {/* navlink untuk berpindah route/halaman */}
         <NavLink to="/home" className="navbar">
           Home
         </NavLink>

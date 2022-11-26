@@ -7,6 +7,7 @@ export default function Home() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
+    // mengambil data dari API
     const fetchData = async () => {
       setError(false);
 
@@ -44,6 +45,7 @@ export default function Home() {
       </p>
       <h2 className="home-description">Category by Climate</h2>
       <div className="category-list">
+        {/* data dari api di map lalu dikirim ke komponen category */}
         {data.map((category) => (
           <Category data={category} key={category.id} />
         ))}

@@ -9,6 +9,7 @@ export default function Search() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
+    // mengambil data dari API
     const fetchData = async () => {
       setError(false);
       setLoading(true);
@@ -27,6 +28,7 @@ export default function Search() {
     fetchData();
   }, []);
 
+  //fungsi untuk menampilkan data sesuai dengan inputan
   const searchData = async () => {
     setError(false);
     setLoading(true);

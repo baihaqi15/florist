@@ -5,9 +5,11 @@ import PlantCard from "../components/plant-card";
 
 export default function PlantCategory() {
   const [data, setData] = useState([]);
+  // ambil variable id yang ada di route dengan useParams
   const { id } = useParams();
 
   useEffect(() => {
+    // mengambil data dari API sesuai dengan id yang ada di route
     const fetchData = async () => {
       try {
         const results = await axios(
@@ -24,6 +26,7 @@ export default function PlantCategory() {
     <>
       <div className="card-title"></div>
       <div className="card-list">
+        {/* data dari api di map lalu dikirim ke komponen plant card */}
         {data.map((plant) => (
           <PlantCard data={plant} key={plant.id} />
         ))}
