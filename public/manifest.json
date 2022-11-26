@@ -4,8 +4,8 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "icon",
-    "short_name": "icon",
+    "name": "Florist App",
+    "short_name": "Florist App",
     "icons": [
         {
             "src": "/icon-192x192.png",
