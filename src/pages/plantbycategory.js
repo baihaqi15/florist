@@ -5,7 +5,7 @@ import PlantCard from "../components/plant-card";
 
 export default function PlantCategory() {
   const [data, setData] = useState([]);
-  // ambil variable id yang ada di route dengan useParams
+  // ambil variable id category yang ada di route dengan useParams
   const { id } = useParams();
 
   useEffect(() => {
